@@ -1,0 +1,38 @@
+collections_config:
+  pages:
+    path: src/content/pages
+    name: Pages
+    icon: wysiwyg
+  blog:
+    path: src/content/blog
+    name: Blog
+    icon: event_available
+  contact:
+    path: src/content/contact
+    name: Contact
+    icon: contacts
+  faq:
+    path: src/content/faq
+    name: Faq
+    icon: fax
+  homepage:
+    path: src/content/homepage
+    name: Homepage
+    icon: compare
+  pricing:
+    path: src/content/pricing
+    name: Pricing
+    icon: dining
+  src_config:
+    path: src/config
+    name: Src Config
+    icon: roofing
+    disable_url: true
+paths:
+  static: public
+  uploads: public/uploads
+timezone: Pacific/Auckland
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
