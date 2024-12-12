@@ -117,6 +117,13 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+_inputs:
+  answer:
+    type: markdown
+    cascade: true
+  contacts[*]:
+    type: markdown
+    cascade: true
 timezone: Pacific/Auckland
 markdown:
   engine: commonmark
